@@ -1,4 +1,4 @@
-FROM debian:9
+FROM ubuntu:latest
 
 CMD apt update
 CMD apt install -y wget
